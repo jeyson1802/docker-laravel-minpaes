@@ -1,0 +1,42 @@
+// LATEST SERMONS SECTION (HOMEPAGE 2) ============================ //
+.latest-sermons {
+  .sermon .title {
+    margin-bottom: 1rem;
+  }
+  .card {
+    @include respond(lg) {
+      height: 100%;
+    }
+  }
+  .card.custom-height {
+    height: calc(#{$default-card-height} / 1.5); // original height / 1.5
+
+    @include respond(lg) {
+      height: calc(
+        (#{$default-card-height} - #{$spacing-sm}) / 2
+      ); // (original height - bottom margin) / number of card
+    }
+  }
+
+  &__sermons {
+    padding-bottom: $default-margin; // 2rem
+    @include respond(lg) {
+      padding-bottom: $section-default-spacing; // 5rem
+    }
+  }
+
+  .flex-lg-7 {
+    @include respond(lg) {
+      padding-right: 0;
+    }
+  }
+
+  .flex-lg-5 {
+    order: 1;
+    margin-bottom: $section-default-spacing;
+    @include respond(lg) {
+      order: -1;
+      margin-bottom: 0;
+    }
+  }
+}
