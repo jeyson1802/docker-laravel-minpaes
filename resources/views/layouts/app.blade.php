@@ -9,7 +9,9 @@
     <!-- Main CSS -->
     <link href="dist/css/main.css" rel="stylesheet">
 
-    <!-- Your page title -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <!-- Site Title -->
     <title>@yield('title')</title>
 
     <!-- Place Custom Favicon here -->
@@ -19,139 +21,209 @@
 
 <body>
 
-<div class="preload"></div>
+    <div class="page-loader">
+      <div class="loader"><img src="images/logo-sm.svg" alt=""></div>
+    </div>
 
-<div class="body-inner">
+    <!-- =================== SITE HEADER BEGINS ============================= -->
 
-    <!-- Header start -->
-    <header id="header" class="header header-transparent">
-        <div class="container">
-            <div class="row">
-                <div class="navbar-header">
-                    <div class="logo">
-                        <a href="#">
-                            <img src="images/logo.png" alt="">
-                        </a>
-                    </div><!-- logo end -->
-                </div><!-- Navbar header end -->
+    <header class="header transparent fixed light-text" data-onscroll-classes="dark-text white-bg"
+      data-onscroll-logo="images/logo-dark.png">
 
-                <div class="site-nav-inner">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+      <div class="container">
 
-                    <nav class="collapse navbar-collapse navbar-responsive-collapse pull-right">
+        <nav class="header__nav bottom-nav">
 
-                        <ul class="nav navbar-nav">
+          <div class="header__logo brand--logo">
+            <a href="index.html"><img src="images/logo-light.png" alt="Greater Love Church"></a>
+          </div>
 
-                            <li><a href="./">Inicio</a></li><!-- Home li end -->
+          <div class="header__mobile--opener hide-on-lg">
+            <button class="header__mobile--icon" aria-expanded="false" aria-controls="mobile-menu"
+              data-toggle="mobile-menu">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </button>
+          </div>
 
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Evento <i class="fa fa-angle-down"></i></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="{{ url('conferenciadepastoresdrowuorperu') }}">Conferencia</a></li>
-                                    <li><a href="{{ url('cruzadadrowuorperu') }}">Cruzada</a></li>
-                                    <li><a href="{{ url('programaciondrowuorperu') }}">Programación</a></li>
-                                </ul>
-                            </li><!-- Evento li end -->
+          <ul class="header__navitems show-on-lg" id="mobile-menu">
 
-                            <li><a href="{{ url('drowuorperu') }}">Profeta Dr. David Owuor</a></li><!-- Dr. Owuor li end -->                            
+            <!-- Contains donation button for mobile and tablet devices -->
+            <div class="header__extra">
+              <div class="cta">
+                <a href="donations.html" class="button button-block-sm">Petici&oacute;n de Oraci&oacute;n</a>
+              </div>
+            </div><!-- .header__extra ends -->
 
-                            <li><a href="{{ url('contactodrowuorperu') }}">Contacto</a></li><!-- Dr. Owuor li end -->
+            <li id="li-inicio" class="header__list active"><a href="./">Inicio</a></li>
 
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-ticket"></i> Registro <i class="fa fa-angle-down"></i></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="{{ url('registroconferencia') }}">Conferencia</a></li>
-                                    <li><a href="{{ url('registrocruzada') }}">Cruzada</a></li>
-                                </ul>
-                            </li>
+            <li id="li-nosotros" class="header__list"><a href="{{ url('nosotros') }}">Nosotros</a></li>
 
-                        </ul><!--/ Nav ul end -->
+            <li id="li-ensenanzas" class="header__list"><a href="{{ url('ensenanzas') }}">Ense&ntilde;anzas</a></li>
 
-                    </nav><!--/ Collapse end -->
+            <li id="li-galeria" class="header__list"><a href="{{ url('galeria') }}">Galeria</a></li>
 
-                </div><!--/ Site nav inner end -->
-            </div><!--/ Row end -->
-        </div><!--/ Container end -->
-    </header><!--/ Header end -->
+            <li id="li-radio" class="header__list"><a href="{{ url('radio') }}">Radio</a></li>
+
+            <li id="li-contacto" class="header__list"><a href="{{ url('registrocontacto') }}">Contacto</a></li>            
+
+          </ul><!-- .header__navitems ends -->
+
+          <!-- Contains Shopping cart and donation button -->
+          <div class="header__extra desktop-version">
+            <div class="cta hide-on-sm show-on-lg">
+              <a href="{{ url('registrooracion') }}" class="button">Petici&oacute;n de Oraci&oacute;n</a>
+            </div>
+          </div><!-- .header__extra ends -->
+
+        </nav><!-- .header__nav ends -->
+
+      </div><!-- .container ends -->
+
+    </header><!-- .header ends -->
+
+    <!-- =================== SITE HEADER ENDS ============================= -->
     <!--
     ========================================================
                             CONTENT
     ========================================================
     -->
-    @yield('content')
-    <!--
-    ========================================================
-                            FOOTER
-    ========================================================
-    -->
+    <main>
 
-    <footer id="footer" class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+      @yield('content')
 
-                    <img src="images/footer-logo.png" alt="footer logo" />
+      <!-- TIME AND LOCATION STARTS -->
+      <section class="time-location">
 
-                    <div class="footer-social">
-                        <ul>
-                            <li><a target="_blank" href="https://www.facebook.com/arrepentimientoPeru/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://www.youtube.com/channel/UC4t2Ayei5g6kF6qCZRQTuBA/featured"><i class="fa fa-youtube"></i></a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/arrepentimientoal/?hl=es-la"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div><!-- Footer social end -->
+      <div class="container">
 
-                    <div class="footer-menu">
-                        <ul class="nav unstyled">
-                            <li><a href="{{ url('conferenciadepastoresdrowuorperu') }}">Conferencia</a></li>
-                            <li><a href="{{ url('programaciondrowuorperu') }}">Programación</a></li>
-                            <li><a href="{{ url('drowuorperu') }}">Profeta Dr. David Owuor</a></li>
-                            <li><a href="{{ url('registrocruzada') }}">Registro</a></li>
-                            <li><a href="{{ url('contactodrowuorperu') }}">Contacto</a></li>
-                        </ul>
-                    </div><!-- Footer menu end -->
+        <div class="row">
 
-                    <div class="copyright-info">
-                        <span>Copyright © 2018 Profeta Dr. David Owuor Perú. All Rights Reserved.</span>
-                    </div><!-- Copyright info end -->
+          <div class="flex-lg-6">
 
-                </div><!-- Content col end -->
-            </div><!-- Content row end -->
-        </div><!-- Container end -->
+            <div class="time-location__content default-section-spacing">
 
-        <div class="footer-pattern"></div> <!-- Footer pattern image -->
+              <div class="section-heading">
+                <span>Hora y lugar</span>
+                <h2>Ven y adora con nosotros</h2>
+              </div><!-- .section-heading ends -->
 
-        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
-            <button class="btn btn-primary" title="Back to Top">
-                <i class="fa fa-angle-up"></i>
-            </button>
-        </div>
+              <div class="time-location__time">
 
-    </footer><!-- Footer end -->
+                <div class="info">
+                  <div class="day bold">Domingo:</div>
+                  <div class="time">
+                    <span>09:00 am - 11:00 am (servicio de la mañana)</span>
+                    <span>06:00 pm - 08:00 pm (servicio de la noche)</span>
+                  </div>
+                </div>
+
+                <div class="info">
+                  <div class="location bold">Ubicaci&oacute;n:</div>
+                  <div class="location-info"><span>Avenida Manuel Olguin 211 - Santiago de Surco</span></div>
+                </div>
+
+              </div><!-- .time-location__time ends -->
+
+            </div>
+
+          </div><!-- .flex-* ends -->
+
+        </div><!-- .row ends -->
+
+      </div><!-- .container ends -->
+
+      <div class="time-location__map"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.3469635045216!2d-76.9735144708194!3d-12.085578688084414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7adaad1d09d%3A0xb720f2d7088ba893!2sEdificio%20Omega!5e0!3m2!1ses-419!2spe!4v1588098596861!5m2!1ses-419!2spe"
+          frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
 
 
-    <!-- Javascript Files
-    ================================================== -->
+      </section><!-- .time-location ends -->
 
-    <!-- initialize jQuery Library -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <!-- Bootstrap jQuery -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script type="text/javascript" src="js/waypoints.min.js"></script>
-    <!-- Color box for Popup-->
-    <script type="text/javascript" src="js/jquery.colorbox.js"></script>
-    <!-- Smoothscroll -->
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <!-- Template custom -->
-    <script type="text/javascript" src="js/custom.js"></script>
+    </main>
+    <!-- =================== MAIN SECTION ENDS ============================= -->
+
+
+    <!-- SCROLL BACK TO TOP BEGINS -->
+    <div class="scroll-to-top"><i class="ri-arrow-up-line"></i></div>
+    <!-- SCROLL BACK TO TOP ENDS -->
+
+
+    <!-- =================== SITE FOOTER BEGINS ============================= -->
+
+    <footer class="footer">
+
+      <div class="container">
+
+        <div class="footer__top display-flex justify-align-center">
+
+          <div class="footer__logo">
+            <div class="logo-wrapper">
+              <img src="images/logo-sm.svg" alt="Small logo">
+            </div>
+          </div>
+
+        </div><!-- .footer__top ends -->
+
+        <div class="footer__bottom">
+
+          <div class="row align-items-center">
+
+            <div class="flex-md-6 flex-lg-4">
+
+              <div class="footer__info copyright">&copy; 2020 - MINPAES - Todos los derechos reservados</div>
+
+            </div><!-- .flex-* ends -->
+
+            <div class="flex-md-6 flex-lg-4">
+
+              <div class="footer__info credit">Web diseñada y desarrollada por MINPAES</div>
+
+            </div><!-- .flex-* ends -->
+
+            <div class="flex-md-6 flex-lg-4">
+
+              <div class="footer__info social">
+                <span>S&iacute;guenos en las redes sociales</span>
+                <div class="social__icons">
+                  <a href=""><i class="ri-facebook-line"></i></a>
+                  <a href=""><i class="ri-youtube-line"></i></a>
+                  <a href=""><i class="ri-instagram-line"></i></a>
+                </div>
+              </div>
+
+            </div><!-- .flex-* ends -->
+
+          </div><!-- .row ends -->
+
+        </div><!-- .footer__top ends -->
+
+      </div><!-- .container ends -->
+
+    </footer><!-- footer ends -->
+
+    <!-- =================== SITE FOOTER ENDS ============================= -->
+
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- loading in JQuery locally if CDN failed -->
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
+    <!-- Owl Carousel script -->
+    <script src="js/plugins/owl.carousel.js"></script>
+    <!-- JQuery Validator script -->
+    <script src="js/plugins/jquery.validate.js"></script>
+    <!-- JQuery Credit Card script -->
+    <script src="js/plugins/jquery.card.js"></script>
+    <!-- Animate On Scroll script -->
+    <script src="js/plugins/aos.js"></script>
+    <!-- Lightbox script -->
+    <script src="js/plugins/lightbox.min.js"></script>
+    <!-- Main (custom) script -->
+    <script src="dist/js/main.min.js"></script>
 
     @stack('scripts')
 
-</div><!-- Body inner end -->
 </body>
 </html>

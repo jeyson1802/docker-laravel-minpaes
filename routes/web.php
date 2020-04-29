@@ -12,44 +12,33 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('inicio');
 });
 
-Route::get('/contactodrowuorperu', function () {
-    return view('contact');
+Route::get('/nosotros', function () {
+    return view('nosotros');
 });
 
-Route::get('/drowuorperu', function () {
-    return view('drowuor');
+Route::get('/ensenanzas', function () {
+    return view('ensenanzas');
 });
 
-Route::get('/preguntasdrowuor', function () {
-    return view('questions');
+Route::get('/galeria', function () {
+    return view('galeria');
 });
 
-Route::get('/programaciondrowuorperu', function () {
-    return view('programmer');
+Route::get('/radio', function () {
+    return view('radio');
 });
 
-Route::get('/conferenciadepastoresdrowuorperu', function () {
-    return view('conference');
+Route::get('/registrocontacto', function () {
+    return view('registrocontacto');
 });
 
-Route::get('/cruzadadrowuorperu', function () {
-    return view('cruzada');
+Route::get('/registrooracion', function () {
+    return view('registrooracion');
 });
 
-Route::get('/registroconferencia', function () {
-    return view('registroconferencia');
-});
-
-Route::get('/registrocruzada', function () {
-    return view('registrocruzada');
-});
-
-Route::resource('cruzada', 'CruzadaController');
-Route::resource('conferencia', 'ConferenciaController');
-
-Route::post('sendcontacto', 'ContactoController@sendMailContacto');
-Route::post('sendsuscription', 'ContactoController@sendSuscription');
+Route::resource('contacto', 'ContactoController');
+Route::resource('oracion', 'OracionController');
 

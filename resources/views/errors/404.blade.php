@@ -4,35 +4,42 @@
 
 @section('content')
 
-    <div id="page-banner-area" class="page-banner-area">        
-    </div><!-- Page Banner end -->
+<!-- NOT FOUND SECTION STARTS -->
+<section class="not-found display-flex-column justify-content-center default-section-spacing">
 
-    <section id="main-container" class="main-container">
-        <div class="container">
+<div class="not-found__cover"></div>
 
-            <div class="row">
+<div class="container">
 
-                <div class="error-page text-center">
-                    <div class="error-code">
-                        <h2><strong>404</strong></h2>
-                    </div>
-                    <div class="error-message">
-                        <h3>Oops... No se ha encontrado la página.</h3>
-                    </div>
-                    <div class="error-body">
-                        Dar click al siguiente botón para ir a la página de Inicio <br>
-                        <a href="./" class="btn btn-primary">Regresar al Inicio</a>
-                    </div>
-                </div>
+  <div class="row justify-content-end">
 
-            </div><!-- Content row -->
-        </div><!-- Container end -->
-    </section><!-- Main container end -->
+    <div class="flex-lg-6">
+
+      <div class="not-found__content text-center">
+
+        <h1>404 - Page not found</h1>
+
+        <p class="leading">You seem lost but don't fear because Jesus is <span class="bold">the Way</span>,
+          <span class="bold">the Truth</span>, and <span class="bold">the Life</span>.</p>
+
+        <p>The page you are looking for can't be found! Check for misspelling and try again or contact us.</p>
+
+        <a href="contact.html" class="button">Contact us</a>
+
+      </div>
+
+    </div><!-- .flex-* ends -->
+
+  </div><!-- .row ends -->
+
+</div><!-- .container ends -->
+
+</section><!-- .not-found ends -->
+<!-- NOT FOUND SECTION ENDS -->
 
 @endsection
-
-
 @push('scripts')
-    <!-- Counter -->
-    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+
+<!-- PENDIENTE AGREGAR AL HEADER MEDIANTE JQUERY LA CLASE header "dark-text" -->
+
 @endpush
