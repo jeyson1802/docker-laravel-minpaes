@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.message')
 
 @section('title', 'Gracias')
 
@@ -17,5 +17,4 @@
 @endsection
 
 @push('scripts')
-<!-- PENDIENTE AGREGAR AL HEADER MEDIANTE JQUERY LA CLASE header "header fixed dark-text" -->
 @endpush

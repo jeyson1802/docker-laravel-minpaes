@@ -44,9 +44,7 @@
 
     .five,
     .six {
-      margin-top: calc(
-        (-#{$default-gallery-card-height}) + #{$gutter-margin-vertical}
-      ); // bring these two the top (-30rem + 2rem)
+      margin-top: calc((-#{$default-gallery-card-height}) + #{$gutter-margin-vertical}); // bring these two the top (-30rem + 2rem)
 
       .gallery__card {
         height: calc((#{$default-gallery-card-height}) - #{$gutter-margin-vertical}); // (30rem - 2rem)

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.message')
 
 @section('title', '404')
 
@@ -17,14 +17,14 @@
 
       <div class="not-found__content text-center">
 
-        <h1>404 - Page not found</h1>
+        <h1>404 - P&aacute;gina No Encontrada</h1>
 
-        <p class="leading">You seem lost but don't fear because Jesus is <span class="bold">the Way</span>,
-          <span class="bold">the Truth</span>, and <span class="bold">the Life</span>.</p>
+        <p class="leading">Pareces p&eacute;rdido pero no temas porque Jes&uacute;s es <span class="bold">el Camino</span>,
+          <span class="bold">la Verdad</span>, y <span class="bold">la Vida</span>.</p>
 
-        <p>The page you are looking for can't be found! Check for misspelling and try again or contact us.</p>
+        <p>¡La p&aacute;gina que est&aacute;s buscando no se puede encontrar! Verifique la falta de ortograf&iacute;a e intente nuevamente o cont&aacute;ctenos.</p>
 
-        <a href="contact.html" class="button">Contact us</a>
+        <a href="{{ url('registrocontacto') }}" class="button">Cont&aacute;ctenos</a>
 
       </div>
 
@@ -39,7 +39,4 @@
 
 @endsection
 @push('scripts')
-
-<!-- PENDIENTE AGREGAR AL HEADER MEDIANTE JQUERY LA CLASE header "dark-text" -->
-
 @endpush

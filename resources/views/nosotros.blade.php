@@ -296,5 +296,5 @@
 @endsection
 
 @push('scripts')
-    
+
 @endpush

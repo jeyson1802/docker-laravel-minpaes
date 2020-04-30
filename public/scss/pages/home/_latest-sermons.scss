@@ -12,9 +12,7 @@
     height: calc(#{$default-card-height} / 1.5); // original height / 1.5
 
     @include respond(lg) {
-      height: calc(
-        (#{$default-card-height} - #{$spacing-sm}) / 2
-      ); // (original height - bottom margin) / number of card
+      height: calc((#{$default-card-height} - #{$spacing-sm}) / 2); // (original height - bottom margin) / number of card
     }
   }
 

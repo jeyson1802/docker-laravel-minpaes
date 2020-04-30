@@ -27,15 +27,14 @@
 
     <!-- =================== SITE HEADER BEGINS ============================= -->
 
-    <header class="header transparent fixed light-text" data-onscroll-classes="dark-text white-bg"
-      data-onscroll-logo="images/logo-dark.png">
+    <header class="header dark-text">
 
       <div class="container">
 
         <nav class="header__nav bottom-nav">
 
           <div class="header__logo brand--logo">
-            <a href="index.html"><img src="images/logo-light.png" alt="Greater Love Church"></a>
+            <a href="index.html"><img src="images/logo-dark.png" alt="Greater Love Church"></a>
           </div>
 
           <div class="header__mobile--opener hide-on-lg">

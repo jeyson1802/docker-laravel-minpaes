@@ -1,3 +1,20 @@
+function activarEstiloOpcionSeleccionado() {
+
+  var pathName = $(location).attr('pathname');
+
+  if(pathName == '/') {
+    $(".header__list.active").removeClass("active");
+    $("#li-inicio").addClass("active");
+    return;
+  }
+
+  var arrayPathName = pathName.split('/');
+  var opcion = arrayPathName[1];
+  $(".header__list.active").removeClass("active");
+  $("#li-" + opcion).addClass("active");
+  
+}
+
 // PAGE LOADER ======================================= // 
 window.addEventListener("load", function () {
 
@@ -6,7 +23,7 @@ window.addEventListener("load", function () {
   if (loader) {
 
     loader.classList.add("slide-off");
-
+    activarEstiloOpcionSeleccionado();
     setTimeout(function () {
       loader.classList.add("is-loading-finish");
       loader.remove();
@@ -344,4 +361,3 @@ var donations = new Card({
     cardNumber: '•' // optional - mask card number
   },
 });
-

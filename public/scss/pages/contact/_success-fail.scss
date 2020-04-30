@@ -1,6 +1,6 @@
 // SUCCESS OR FAIL AFTER CONTACT FOORM ====================== //
 .message {
-  height: 60rem;
+  height: 40rem;
   display: flex;
   @include justify-align-center;
 
@@ -9,7 +9,7 @@
   }
 
   @include respond(xl) {
-    height: 70rem;
+    height: 40rem;
   }
 
   h1 {
