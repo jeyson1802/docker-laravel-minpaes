@@ -8,8 +8,8 @@
 
         <div class="container text-center">
           <span class="icon fail"><i class="ri-close-circle-line"></i></span>
-          <h1>Fail!</h1>
-          <p class="leading">Sorry but your message was not sent! <a href="contact.html" class="bold">Try again.</a></p>
+          <h1>¡Error!</h1>
+          <p class="leading">Disculpenos su mensaje no pudo ser enviado. <a href="./" class="bold">Intentelo de nuevo.</a></p>
         </div>
 
 </div>

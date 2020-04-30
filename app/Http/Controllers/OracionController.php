@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 
 use Mail;
-use App\Mail\MailRegistroContacto;
-use App\Contacto;
+use App\Mail\MailRegistroOracion;
+use App\Oracion;
 use Illuminate\Http\Request;
 
-class ContactoController extends Controller
+class OracionController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -37,17 +37,17 @@ class ContactoController extends Controller
      */
     public function store(Request $request)
     {
-        $contacto = new Contacto();
-        $contacto->nombres = $request->input("nombres");
-        $contacto->correo = $request->input("correo");
-        $contacto->celular = $request->input("celular");
-        $contacto->pais = $request->input("pais");
-        $contacto->asunto = $request->input("asunto");
-        $contacto->mensaje = $request->input("mensaje");
-        $contacto->save();
+        $oracion = new Oracion();
+        $oracion->nombres = $request->input("nombres");
+        $oracion->correo = $request->input("correo");
+        $oracion->celular = $request->input("celular");
+        $oracion->pais = $request->input("pais");
+        $oracion->tipopeticion = $request->input("tipopeticion");
+        $oracion->peticion = $request->input("peticion");
+        $oracion->save();
 
         $correo = $request->input("correo");
-        Mail::to($correo)->send(new MailRegistroContacto($contacto));
+        Mail::to($correo)->send(new MailRegistroOracion($oracion));
 
         return view('registroconexito');
     }
@@ -55,10 +55,10 @@ class ContactoController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Contacto  $contacto
+     * @param  \App\Oracion  $oracion
      * @return \Illuminate\Http\Response
      */
-    public function show(Contacto $contacto)
+    public function show(Oracion $oracion)
     {
         //
     }
@@ -66,10 +66,10 @@ class ContactoController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Contacto  $contacto
+     * @param  \App\Oracion  $oracion
      * @return \Illuminate\Http\Response
      */
-    public function edit(Contacto $contacto)
+    public function edit(Oracion $oracion)
     {
         //
     }
@@ -78,10 +78,10 @@ class ContactoController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Contacto  $contacto
+     * @param  \App\Oracion  $oracion
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Contacto $contacto)
+    public function update(Request $request, Oracion $oracion)
     {
         //
     }
@@ -89,10 +89,10 @@ class ContactoController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Contacto  $contacto
+     * @param  \App\Oracion  $oracion
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Contacto $contacto)
+    public function destroy(Oracion $oracion)
     {
         //
     }

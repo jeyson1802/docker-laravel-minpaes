@@ -6,9 +6,10 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
+
 use App\Contacto;
 
-class MailContacto extends Mailable
+class MailRegistroContacto extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -31,6 +32,6 @@ class MailContacto extends Mailable
      */
     public function build()
     {
-        return $this->subject('Consulta - Evento - Cruzada')->view('mails.contacto');
+        return $this->subject('Registro Correcto - Contacto')->view('mails.contacto');
     }
 }

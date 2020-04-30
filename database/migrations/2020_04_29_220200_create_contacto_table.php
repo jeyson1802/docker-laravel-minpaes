@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCruzadasTable extends Migration
+class CreateContactoTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,17 +13,14 @@ class CreateCruzadasTable extends Migration
      */
     public function up()
     {
-        Schema::create('cruzadas', function (Blueprint $table) {
+        Schema::create('contactos', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nombres')->nullable(false)->default('');
-            $table->string('apellidos')->nullable(false)->default('');
             $table->string('correo')->nullable(false)->default('');
             $table->string('celular')->nullable(false)->default('');
-            $table->string('facebook')->nullable(true)->default('-');
             $table->string('pais')->nullable(true)->default('-');
-            $table->string('iglesia')->nullable(true)->default('-');
-            $table->string('oracion')->nullable(true)->default('-');
-            $table->string('noticias')->nullable(true)->default('-');
+            $table->string('asunto')->nullable(true)->default('-');
+            $table->string('mensaje')->nullable(true)->default('-');
             $table->timestamps();
         });
     }
@@ -35,6 +32,6 @@ class CreateCruzadasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('cruzadas');
+        Schema::dropIfExists('contactos');
     }
 }

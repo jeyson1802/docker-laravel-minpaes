@@ -2,10 +2,8 @@
 
 namespace App;
 
-class Contacto
+use Illuminate\Database\Eloquent\Model;
+
+class Contacto extends Model
 {
-    public $nombres;
-    public $correo;
-    public $asunto;
-    public $mensaje;
 }

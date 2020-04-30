@@ -4,31 +4,18 @@
 
 @section('content')
 
-    <div id="page-banner-area" class="page-banner-area">
-    </div><!-- Page Banner end -->
+<div class="thank-you message">
 
-    <section id="main-container" class="main-container">
-        <div class="container">
+<div class="container text-center">
+  <span class="icon success"><i class="ri-checkbox-circle-line"></i></span>
+  <h1>Gracias!</h1>
+  <p class="leading">¡Hemos recibido su mensaje y le responderemos a la brevedad!</p>
+</div>
 
-            <div class="row">
-
-                <div class="error-page text-center">
-                    <div class="error-message">
-                        <h3>Gracias por su registro.</h3>
-                    </div>
-                    <div class="error-body">
-                        Le hemos enviado un correo con el detalle del registro bendiciones.<br>
-                    </div>
-                </div>
-
-            </div><!-- Content row -->
-        </div><!-- Container end -->
-    </section><!-- Main container end -->
+</div>
 
 @endsection
 
-
 @push('scripts')
-    <!-- Counter -->
-    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+<!-- PENDIENTE AGREGAR AL HEADER MEDIANTE JQUERY LA CLASE header "header fixed dark-text" -->
 @endpush
