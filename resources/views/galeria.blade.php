@@ -12,7 +12,7 @@
     <div class="banner__content">
 
       <div class="banner__heading">
-        <h1>Galeria</h1>
+        <h1>Galer&iacute;a</h1>
         <p>MINPAES - Ministerio a las Naciones para Arrepentimiento y Santidad</p>
       </div>
 
@@ -33,8 +33,8 @@
 <section class="our-gallery gallery gallery--equal-grid default-section-spacing text-center">
 
   <div class="section-heading">
-    <span>Our gallery</span>
-    <h2>Explore our church</h2>
+    <span>Nuestra Galer&iacute;a</span>
+    <h2>Explore nuestra iglesia</h2>
   </div><!-- .section-heading ends -->
 
   <div class="row">
