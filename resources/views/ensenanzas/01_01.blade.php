@@ -126,7 +126,7 @@
         <div class="sidebar__widget">
           <div class="share">
             <span>Compartir</span>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fminpaes.org" title="Facebook" target="_blank"><i class="ri-facebook-line"></i></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//minpaes.org/radio" title="Facebook" target="_blank"><i class="ri-facebook-line"></i></a>
             <a href="https://api.whatsapp.com/send?text=http%3A%2F%2Fminpaes.org%2Fradio" title="Whatsapp" target="_blank"><i class="ri-whatsapp-line"></i></a>
             <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fminpaes.org&amp;text=MINPAES%3A%20MINPAES" title="Twitter" target="_blank"><i class="ri-twitter-line"></i></a>
             <a href="mailto:?subject=MINPAES%20&amp;body=http%3A%2F%2Fminpaes.org%0A%0AMINPAES" title="Email" target="_blank"><i class="ri-mail-line"></i></a>
