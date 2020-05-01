@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta property="og:title" content="MINPAES">
+    <meta property="og:description" content="Ministerio a las Naciones para Arrepentimiento y Santidad.">
+    <meta property="og:image" content="images/hero-1.jpg">
+
     <!-- Main CSS -->
     <link href="dist/css/main.css" rel="stylesheet">
 
