@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Inicio')
+@section('title', 'Inicio - MINPAES')
 
 @section('content')
 
@@ -17,7 +17,7 @@
         <div class="hero__content text-center">
 
           <span class="hero__intro">We are glad you are here</span>
-          <h1>Welcome to Greater Love Church</h1>
+          <h1>Welcome to MINPAES - Ministerio a las Naciones para Arrepentimiento y Santidad</h1>
           <p class="leading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea veniam vitae
             repudiandae, reprehenderit ducimus at.</p>
 
@@ -155,7 +155,7 @@
 
 
 <!-- LATEST SERMONS SECTION STARTS -->
-<div class="latest-sermons background-lighter-gray">
+<div class="latest-sermons background-lighter-white">
 
   <div class="row no-margin">
 
@@ -194,12 +194,6 @@
             <a href="sermons-single.html" class="button">Read more</a>
           </div>
 
-          <div class="sermon__download">
-            <span class="text-white">Download</span>
-            <a href=""><i class="ri-video-line"></i></a>
-            <a href=""><i class="ri-headphone-line"></i></a>
-            <a href=""><i class="ri-file-pdf-line"></i></a>
-          </div>
         </div><!-- .card__footer ends -->
 
       </div><!-- .card ends -->
@@ -208,7 +202,7 @@
 
     <div class="flex-lg-7">
 
-      <div class="latest-sermons__sermons default-section-spacing">
+      <div class="latest-sermons__sermons">
 
         <div class="section-heading">
           <span>Sermons</span>
@@ -243,7 +237,7 @@
                   </div>
                 </div>
 
-                <div class="sermon__link">
+                <div class="sermon__link__home">
                   <a href="sermons-single.html" class="button">Read more</a>
                 </div>
 
@@ -278,7 +272,7 @@
                   </div>
                 </div>
 
-                <div class="sermon__link">
+                <div class="sermon__link__home">
                   <a href="sermons-single.html" class="button">Read more</a>
                 </div>
 
@@ -313,7 +307,7 @@
                   </div>
                 </div>
 
-                <div class="sermon__link">
+                <div class="sermon__link__home">
                   <a href="sermons-single.html" class="button">Read more</a>
                 </div>
 
@@ -348,7 +342,7 @@
                   </div>
                 </div>
 
-                <div class="sermon__link">
+                <div class="sermon__link__home">
                   <a href="sermons-single.html" class="button">Read more</a>
                 </div>
 

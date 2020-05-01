@@ -34,7 +34,7 @@
         <nav class="header__nav bottom-nav">
 
           <div class="header__logo brand--logo">
-            <a href="index.html"><img src="images/logo-dark.png" alt="Greater Love Church"></a>
+            <a href="./"><img src="images/logo-dark.png" alt="MINPAES - Ministerio a las Naciones para Arrepentimiento y Santidad"></a>
           </div>
 
           <div class="header__mobile--opener hide-on-lg">

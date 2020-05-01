@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Main CSS -->
-    <link href="dist/css/main.css" rel="stylesheet">
+    <link href="../../dist/css/main.css" rel="stylesheet">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -15,27 +15,27 @@
     <title>@yield('title')</title>
 
     <!-- Place Custom Favicon here -->
-    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="../../images/favicon.png" type="image/png">
 
 </head>
 
 <body>
 
     <div class="page-loader">
-      <div class="loader"><img src="images/logo-sm.svg" alt=""></div>
+      <div class="loader"><img src="../../images/logo-sm.svg" alt=""></div>
     </div>
 
     <!-- =================== SITE HEADER BEGINS ============================= -->
 
     <header class="header transparent fixed light-text" data-onscroll-classes="dark-text white-bg"
-      data-onscroll-logo="images/logo-dark.png">
+      data-onscroll-logo="../../images/logo-dark.png">
 
       <div class="container">
 
         <nav class="header__nav bottom-nav">
 
           <div class="header__logo brand--logo">
-            <a href="./"><img src="images/logo-light.png" alt="MINPAES - Ministerio a las Naciones para Arrepentimiento y Santidad"></a>
+            <a href="../../"><img src="../../images/logo-light.png" alt="MINPAES - Ministerio a las Naciones para Arrepentimiento y Santidad"></a>
           </div>
 
           <div class="header__mobile--opener hide-on-lg">
@@ -56,7 +56,7 @@
               </div>
             </div><!-- .header__extra ends -->
 
-            <li id="li-inicio" class="header__list active"><a href="./">Inicio</a></li>
+            <li id="li-inicio" class="header__list active"><a href="../../">Inicio</a></li>
 
             <li id="li-nosotros" class="header__list"><a href="{{ url('nosotros') }}">Nosotros</a></li>
 
@@ -160,7 +160,7 @@
 
           <div class="footer__logo">
             <div class="logo-wrapper">
-              <img src="images/logo-sm.svg" alt="Small logo">
+              <img src="../../images/logo-sm.svg" alt="Small logo">
             </div>
           </div>
 
@@ -211,17 +211,17 @@
     <!-- loading in JQuery locally if CDN failed -->
     <script>window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
     <!-- Owl Carousel script -->
-    <script src="js/plugins/owl.carousel.js"></script>
+    <script src="../../js/plugins/owl.carousel.js"></script>
     <!-- JQuery Validator script -->
-    <script src="js/plugins/jquery.validate.js"></script>
+    <script src="../../js/plugins/jquery.validate.js"></script>
     <!-- JQuery Credit Card script -->
-    <script src="js/plugins/jquery.card.js"></script>
+    <script src="../../js/plugins/jquery.card.js"></script>
     <!-- Animate On Scroll script -->
-    <script src="js/plugins/aos.js"></script>
+    <script src="../../js/plugins/aos.js"></script>
     <!-- Lightbox script -->
-    <script src="js/plugins/lightbox.min.js"></script>
+    <script src="../../js/plugins/lightbox.min.js"></script>
     <!-- Main (custom) script -->
-    <script src="dist/js/main.min.js"></script>
+    <script src="../../dist/js/main.min.js"></script>
 
     @stack('scripts')
 

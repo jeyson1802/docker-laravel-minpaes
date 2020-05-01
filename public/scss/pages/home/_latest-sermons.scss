@@ -1,5 +1,13 @@
 // LATEST SERMONS SECTION (HOMEPAGE 2) ============================ //
 .latest-sermons {
+
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  @include respond(lg) {
+    margin-top: 5rem; // 5rem
+    margin-bottom: 5rem; // 5rem
+  }
+
   .sermon .title {
     margin-bottom: 1rem;
   }
@@ -17,9 +25,11 @@
   }
 
   &__sermons {
-    padding-bottom: $default-margin; // 2rem
+    margin-top: 5rem; // 5rem
+    margin-bottom: 5rem; // 5rem
     @include respond(lg) {
-      padding-bottom: $section-default-spacing; // 5rem
+      margin-top: 0rem; // 5rem
+      margin-bottom: 0rem; // 5rem
     }
   }
 

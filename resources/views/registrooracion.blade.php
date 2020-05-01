@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Nosotros')
+@section('title', 'Oracion - MINPAES')
 
 @section('content')
 
@@ -12,14 +12,14 @@
     <div class="banner__content">
 
       <div class="banner__heading">
-        <h1>Acerca de Nosotros</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugit</p>
+        <h1>Petici&oacute;n de Oraci&oacute;n</h1>
+        <p>MINPAES - Ministerio a las Naciones para Arrepentimiento y Santidad</p>
       </div>
 
       <div class="breadcrumb">
-        <div class="breadcrumb__home--link"><a href="index.html">Inicio</a></div>
+        <div class="breadcrumb__home--link"><a href="./">Inicio</a></div>
         <span></span>
-        <div class="breadcrumb__current--page-link">Nosotros</div>
+        <div class="breadcrumb__current--page-link">Oraci&oacute;n</div>
       </div><!-- .breadcrumb ends -->
 
     </div><!-- .banner__content ends -->

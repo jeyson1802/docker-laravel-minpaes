@@ -1,6 +1,6 @@
 @extends('layouts.message')
 
-@section('title', 'Gracias')
+@section('title', 'Gracias - MINPAES')
 
 @section('content')
 

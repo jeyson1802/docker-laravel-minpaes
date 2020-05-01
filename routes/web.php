@@ -39,6 +39,10 @@ Route::get('/registrooracion', function () {
     return view('registrooracion');
 });
 
+Route::get('/ensenanzas/01/titulo', function () {
+    return view('ensenanzas.01_01');
+});
+
 Route::resource('contacto', 'ContactoController');
 Route::resource('oracion', 'OracionController');
 

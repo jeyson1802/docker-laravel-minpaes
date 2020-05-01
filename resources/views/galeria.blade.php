@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Ense&ntilde;nzas')
+@section('title', 'Galeria - MINPAES')
 
 @section('content')
 
@@ -13,11 +13,11 @@
 
       <div class="banner__heading">
         <h1>Galeria</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugit</p>
+        <p>MINPAES - Ministerio a las Naciones para Arrepentimiento y Santidad</p>
       </div>
 
       <div class="breadcrumb">
-        <div class="breadcrumb__home--link"><a href="index.html">Inicio</a></div>
+        <div class="breadcrumb__home--link"><a href="./">Inicio</a></div>
         <span></span>
         <div class="breadcrumb__current--page-link">Galeria</div>
       </div><!-- .breadcrumb ends -->
