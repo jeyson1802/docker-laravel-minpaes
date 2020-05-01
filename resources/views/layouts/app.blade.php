@@ -9,7 +9,7 @@
     <meta property="og:title" content="MINPAES">
     <meta property="og:description" content="Ministerio a las Naciones para Arrepentimiento y Santidad.">
     <meta property="og:image" content="http://minpaes.org/images/hero-1.jpg">
-    <meta property="og:url" content="http://minpaes.org">
+    <meta property="og:url" content="http://minpaes.org/">
 
     <!-- Main CSS -->
     <link href="dist/css/main.css" rel="stylesheet">
