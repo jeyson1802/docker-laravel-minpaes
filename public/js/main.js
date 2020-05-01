@@ -26,7 +26,11 @@ function isMobile() {
 }
 
 function generarEnlacesFooter() {
-  
+  if(isMobile()) {
+    $("#link-fb-footer").attr("href", "fb://page/196045040835323");
+  } else {
+    $("#link-fb-footer").attr("href", "https://www.facebook.com/ministeriopalabrayespiritu/");
+  }
 }
 
 // PAGE LOADER ======================================= // 
@@ -38,6 +42,7 @@ window.addEventListener("load", function () {
 
     loader.classList.add("slide-off");
     activarEstiloOpcionSeleccionado();
+    generarEnlacesFooter();
     setTimeout(function () {
       loader.classList.add("is-loading-finish");
       loader.remove();

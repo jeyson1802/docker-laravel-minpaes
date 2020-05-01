@@ -182,16 +182,7 @@
             </div><!-- .flex-* ends -->
 
             <div class="flex-md-6 flex-lg-4">
-
-              <div class="footer__info social">
-                <span>S&iacute;guenos en las redes sociales</span>
-                <div class="social__icons">
-                  <a href=""><i class="ri-facebook-line"></i></a>
-                  <a href=""><i class="ri-youtube-line"></i></a>
-                  <a href=""><i class="ri-instagram-line"></i></a>
-                </div>
-              </div>
-
+               @include('layouts.footersocial')
             </div><!-- .flex-* ends -->
 
           </div><!-- .row ends -->
