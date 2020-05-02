@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content="MINPAES">
-    <meta property="og:description" content="Ministerio a las Naciones para Arrepentimiento y Santidad. H">
-    <meta property="og:site_name" content="Ministerio a las Naciones para Arrepentimiento y Santidad. H">
+    <meta property="og:description" content="Ministerio a las Naciones para Arrepentimiento y Santidad">
+    <meta property="og:site_name" content="Ministerio a las Naciones para Arrepentimiento y Santidad">
     <meta property="og:image" itemprop="image" content="http://minpaes.org/images/hero-1.jpg">
     <meta property="og:image:secure_url" itemprop="image" content="http://minpaes.org/images/hero-1.jpg">
     <meta property="og:url" content="http://minpaes.org/">
