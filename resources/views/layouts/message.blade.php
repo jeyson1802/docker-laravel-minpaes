@@ -51,7 +51,7 @@
             <!-- Contains donation button for mobile and tablet devices -->
             <div class="header__extra">
               <div class="cta">
-                <a href="donations.html" class="button button-block-sm">Petici&oacute;n de Oraci&oacute;n</a>
+                <a href="{{ url('registrooracion') }}" class="button button-block-sm">Petici&oacute;n de Oraci&oacute;n</a>
               </div>
             </div><!-- .header__extra ends -->
 

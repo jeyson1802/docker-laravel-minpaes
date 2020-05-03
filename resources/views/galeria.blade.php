@@ -42,12 +42,12 @@
     <div class="flex-md-6 flex-lg-3 no-padding no-margin">
 
       <a href="images/gallery-1@2x.jpg" class="gallery-link" data-lightbox="church-picture"
-        data-title="Picture of the Holy Bible">
+        data-title="Recibimiento Profeta Dr. David Owuor">
 
         <div class="card gallery__card">
 
           <div class="card__header">
-            <img src="images/gallery-1@1.5x.jpg" alt="Picture of the Holy Bible" class="card__image">
+            <img src="images/gallery-1@1.5x.jpg" alt="Recibimiento Profeta Dr. David Owuor" class="card__image">
           </div>
 
         </div><!-- .card ends -->
@@ -59,12 +59,12 @@
     <div class="flex-md-6 flex-lg-3 no-padding no-margin">
 
       <a href="images/gallery-2@2x.jpg" class="gallery-link" data-lightbox="church-picture"
-        data-title="Picture of Jesus on a medal cross">
+        data-title="Predica Iglesia Surco">
 
         <div class="card gallery__card">
 
           <div class="card__header">
-            <img src="images/gallery-2@1.5x.jpg" alt="Picture of Jesus on a medal cross" class="card__image">
+            <img src="images/gallery-2@1.5x.jpg" alt="Predica Iglesia Surco" class="card__image">
           </div>
 
         </div><!-- .card ends -->
@@ -76,12 +76,12 @@
     <div class="flex-md-6 flex-lg-3 no-padding no-margin">
 
       <a href="images/gallery-3@2x.jpg" class="gallery-link" data-lightbox="church-picture"
-        data-title="Bible study">
+        data-title="Arzobispo César Pisconti">
 
         <div class="card gallery__card">
 
           <div class="card__header">
-            <img src="images/gallery-3@1.5x.jpg" alt="Bible study" class="card__image">
+            <img src="images/gallery-3@1.5x.jpg" alt="Arzobispo César Pisconti" class="card__image">
           </div>
 
         </div><!-- .card ends -->
@@ -93,12 +93,12 @@
     <div class="flex-md-6 flex-lg-3 no-padding no-margin">
 
       <a href="images/gallery-4@2x.jpg" class="gallery-link" data-lightbox="church-picture"
-        data-title="Inside of a church">
+        data-title="Arzobispo César Pisconti y Pastora Mery Pisconti">
 
         <div class="card gallery__card">
 
           <div class="card__header">
-            <img src="images/gallery-4@1.5x.jpg" alt="Inside of a church" class="card__image">
+            <img src="images/gallery-4@1.5x.jpg" alt="Arzobispo César Pisconti y Pastora Mery Pisconti" class="card__image">
           </div>
 
         </div><!-- .card ends -->
@@ -110,12 +110,12 @@
     <div class="flex-md-6 flex-lg-3 no-padding no-margin">
 
       <a href="images/gallery-5@2x.jpg" class="gallery-link" data-lightbox="church-picture"
-        data-title="Picture of people worshiping in church">
+        data-title="Visita a Kenia del Ministerio">
 
         <div class="card gallery__card">
 
           <div class="card__header">
-            <img src="images/gallery-5@1.5x.jpg" alt="Picture of people worshiping in church" class="card__image">
+            <img src="images/gallery-5@1.5x.jpg" alt="Visita a Kenia del Ministerio" class="card__image">
           </div>
 
         </div><!-- .card ends -->
@@ -127,12 +127,12 @@
     <div class="flex-md-6 flex-lg-3 no-padding no-margin">
 
       <a href="images/gallery-6@2x.jpg" class="gallery-link" data-lightbox="church-picture"
-        data-title="Picture of women laughing">
+        data-title="Adoración servicio del domingo">
 
         <div class="card gallery__card">
 
           <div class="card__header">
-            <img src="images/gallery-6@1.5x.jpg" alt="Picture of women laughing" class="card__image">
+            <img src="images/gallery-6@1.5x.jpg" alt="Adoración servicio del domingo" class="card__image">
           </div>
 
         </div><!-- .card ends -->
@@ -144,12 +144,12 @@
     <div class="flex-md-6 flex-lg-3 no-padding no-margin">
 
       <a href="images/gallery-7@2x.jpg" class="gallery-link" data-lightbox="church-picture"
-        data-title="Picture of a worship leader singing">
+        data-title="Previo Bautismo de la Iglesia">
 
         <div class="card gallery__card">
 
           <div class="card__header">
-            <img src="images/gallery-7@1.5x.jpg" alt="Picture of a worship leader singing" class="card__image">
+            <img src="images/gallery-7@1.5x.jpg" alt="Previo Bautismo de la Iglesia" class="card__image">
           </div>
 
         </div><!-- .card ends -->
@@ -161,12 +161,12 @@
     <div class="flex-md-6 flex-lg-3 no-padding no-margin">
 
       <a href="images/gallery-8@2x.jpg" class="gallery-link" data-lightbox="church-picture"
-        data-title="Picture of a smart kid at school">
+        data-title="Bautismo de la Iglesia">
 
         <div class="card gallery__card">
 
           <div class="card__header">
-            <img src="images/gallery-8@1.5x.jpg" alt="Picture of a smart kid at school" class="card__image">
+            <img src="images/gallery-8@1.5x.jpg" alt="Bautismo de la Iglesia" class="card__image">
           </div>
 
         </div><!-- .card ends -->

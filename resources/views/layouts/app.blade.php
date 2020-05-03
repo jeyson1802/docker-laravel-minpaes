@@ -9,8 +9,8 @@
     <meta property="og:title" content="MINPAES">
     <meta property="og:description" content="Ministerio a las Naciones para Arrepentimiento y Santidad">
     <meta property="og:site_name" content="Ministerio a las Naciones para Arrepentimiento y Santidad">
-    <meta property="og:image" itemprop="image" content="http://minpaes.org/images/hero-1.jpg">
-    <meta property="og:image:secure_url" itemprop="image" content="http://minpaes.org/images/hero-1.jpg">
+    <meta property="og:image" itemprop="image" content="http://minpaes.org/images/logo.png">
+    <meta property="og:image:secure_url" itemprop="image" content="http://minpaes.org/images/logo.png">
     <meta property="og:url" content="http://minpaes.org/">
     <meta property="og:type" content="website">
     <meta property="og:updated_time" content="1440432930" />
@@ -61,7 +61,7 @@
             <!-- Contains donation button for mobile and tablet devices -->
             <div class="header__extra">
               <div class="cta">
-                <a href="donations.html" class="button button-block-sm">Petici&oacute;n de Oraci&oacute;n</a>
+                <a href="{{ url('registrooracion') }}" class="button button-block-sm">Petici&oacute;n de Oraci&oacute;n</a>
               </div>
             </div><!-- .header__extra ends -->
 
