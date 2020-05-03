@@ -53,12 +53,12 @@
 
           <div class="product-details__description">
             <div class="bold uppercase">Programaci&oacute;n</div>
-            <p>Nuestra radio ha sido dise&ntilde;ada para la alcanzar a muchos con el evangelio de Jesucristo, 
-               poniendo el fundamento en sus vidas a trav&eacute;s del o&iacute;r y el o&iacute;r su palabra, por medio de predicas, 
-               adoraciones, tiempos de oraci&oacute;n, testimonios, saludos. Pero lo m&aacute;s importante que queremos es prepara
-               el coraz&oacute;n de todo un remanente santo para su eternidad por medio de mensajes como el arrepentimiento,
-               la santidad. Y dando a Conocer a Jesucristo con el buen amigo y el juez justo, para cada vida que la
-               oiga ser&aacute; de mucha edificaci&oacute;n, con&eacute;ctate con tu esp&iacute;ritu y disfruta de todos los mensajes</p>
+            <p>Nuestra radio ha sido diseñada para la alcanzar a muchos con el evangelio de Jesucristo, poniendo el fundamento 
+               en sus vidas a través del oír y el oír su palabra, por medio de predicas, adoraciones, tiempos de oración, 
+               testimonios. Pero lo más importante que queremos es preparar el corazón de todo un remanente santo para su 
+               eternidad por medio de mensajes como el arrepentimiento, la santidad. Y dando a Conocer a Jesucristo con el 
+               buen amigo y el juez justo, para cada vida que la oiga será de mucha edificación, conéctate con tu espíritu 
+               y disfruta de todos los mensajes.</p>
           </div><!-- .product-details__description ends -->
 
         </div><!-- .flex-* ends -->
