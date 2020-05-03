@@ -6,10 +6,13 @@
     <title>Registro Oraci&oacute;n</title>
 </head>
 <body>
-    <p>Hola! {{ $oracion->nombres }}</p>
-    <p>Su petici&oacute;n de oraci&oacute;n ha sido registrado con éxito.</p>
-    <p>Pronto nos comunicaremos con usted.</p>
-    <img src="{{ $message->embed(public_path() . '/images/ministry-2@1.5x.jpg') }}" />
-    <p>Bendiciones.</p>
+    <p>Hola {{ $oracion->nombres }}</p>
+    <p>Ahora que hemos recibido tu petición queremos ponernos en acuerdo contigo, como dice su en su palabra, 
+       Otra vez os digo, que si dos de vosotros se pusieren de acuerdo en la tierra acerca de cualquiera cosa que pidieren,
+       les será hecho por mi Padre que está en los cielos. Mateo 18:19 </p>
+    <br>
+    <img src="{{ $message->embed(public_path() . '/images/ministry-1@1.5x.jpg') }}" />
+    <br>
+    <p>Bendecido día.</p>
 </body>
 </html>

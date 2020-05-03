@@ -16,13 +16,13 @@
 
         <div class="hero__content text-center">
 
-          <span class="hero__intro">We are glad you are here</span>
-          <h1>Welcome to MINPAES - Ministerio a las Naciones para Arrepentimiento y Santidad</h1>
-          <p class="leading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea veniam vitae
-            repudiandae, reprehenderit ducimus at.</p>
+          <span class="hero__intro">Nos alegramos de que usted est&eacute; aqu&iacute;</span>
+          <h1>Bienvenido a MINPAES</h1> 
+          <p class="leading">Somos una casa que con el tiempo a venido defendiendo el evangelio de la cruz, la sangre de Cristo, 
+          creyendo en la trinidad.</p>
 
           <div class="hero__cta">
-            <a href="" class="button">Learn more</a>
+            <a href="{{ url('nosotros') }}" class="button">Leer M&aacute;s</a>
           </div>
 
         </div><!-- .hero__content -->
@@ -37,14 +37,16 @@
 
         <div class="hero__content text-center">
 
-          <span class="hero__intro">We are glad you are here</span>
-          <h1>Come fellowship with us</h1>
-          <p class="leading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea veniam vitae
-            repudiandae,
-            reprehenderit ducimus at.</p>
+          <span class="hero__intro">¿Tienes alguna necesidad?</span>
+          <h1>Ministerio de Oraci&oacute;n</h1>
+
+          <p class="leading">En MINPAES fortalecemos nuestra fe en la oraci&oacute;n, env&iacute;enos su petici&oacute;n de oraci&oacute;n, sin
+            importar el problema, para Dios no hay nada imposible. Como dice su en su palabra. </p>
+          <p class="leading"> Otra vez os digo, que si dos de vosotros se pusieren de acuerdo en la tierra acerca de 
+            cualquiera cosa que pidieren, les ser&aacute; hecho por mi Padre que est&aacute; en los cielos. Mateo 18:19</p>
 
           <div class="hero__cta">
-            <a href="" class="button">Learn more</a>
+            <a href="{{ url('registrooracion') }}" class="button">Leer M&aacute;s</a>
           </div>
 
         </div><!-- .hero__content -->
@@ -69,22 +71,21 @@
       <div class="flex-lg-7">
 
         <div class="section-heading">
-          <span>Worship</span>
-          <h2>We love worshiping and will love to have you join</h2>
+          <span>Iglesia</span>
+          <h2>Ministerio a las Naciones para Arrepentimiento y Santidad</h2>
         </div><!-- .section-heading ends -->
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis libero quas maiores deserunt quasi
-          repudiandae ex necessitatibus reiciendis eum labore tenetur quibusdam quam, modi ad alias cum cupiditate
-          consectetur ratione, atque eos, doloremque accusamus quod architecto animi? Nisi, magnam. Recusandae
-          commodi ratione sapiente nam reprehenderit?</p>
-        <p>Placeat vel quasi accusantium quidem perspiciatis quisquam ipsam dolores totam voluptas vitae maiores
-          eum tempora nostrum obcaecati voluptatibus, blanditiis sint voluptatum delectus. Reprehenderit,
-          voluptates corporis aliquam tempore minus voluptas! Necessitatibus nesciunt eum quia omnis ut hic alias
-          facilis laborum, at dolorem nemo! Aspernatur, earum culpa.</p>
-        <p>Expedita vitae ab nemo dolor at, necessitatibus placeat porro reiciendis fugit mollitia. Numquam enim,
-          reiciendis placeat mollitia, repellendus distinctio ducimus ipsa corrupti esse iste odit beatae
-          consequuntur tempora error, inventore sapiente architecto. Sunt et ratione eaque distinctio vel, enim
-          unde porro, quod ea, nemo placeat.</p>
+        <p>
+           Somos una casa que con el tiempo ha venido defendiendo el evangelio de la cruz, la sangre de Cristo, 
+           creyendo en la trinidad y entendidos que Jesucristo vino en carne a la tierra, conociendo a un Jesucristo integral,
+           que es un buen amigo un Juez justo, creyendo fielmente en los principios b&iacute;blicos sin dejar pasar alguno de ellos.
+        </p>
+        <p>
+           Miramos siempre al autor y consumador de nuestra fe Cristo Jes&uacute;s, y trabajando para la vida eterna, estando aqu&iacute; 
+           en la tierra limpiando nuestras vestiduras viviendo en arrepentimiento, en justicia, rectitud, y santidad sin la 
+           cual nadie ver&aacute; a Dios, con cero tolerancias al pecado y peleando la buena batalla de la fe el d&iacute;a a d&iacute;a, sabiendo
+           que el est&aacute;ndar es la santidad al cien por ciento de nuestras vidas consagradas.
+        </p>
 
       </div><!-- .flex-* ends -->
 
@@ -114,9 +115,10 @@
               <span><i class="ri-heart-2-line"></i></span>
             </div>
             <div>
-              <h3>Christ-centered</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus laudantium perspiciatis
-                reiciendis esse cum accusamus harum. Hic cupiditate perferendis adipisci!</p>
+              <h3>Vocaci&oacute;n al servicio de Dios</h3>
+              <p>Nuestra iglesia se caracteriza por el servicio a Dios en todos los ministerios de la iglesia. 
+                En el &aacute;rea administrativa contamos con profesionales al servicio del Señor, todo por amor a Cristo.
+              </p>
             </div>
           </div><!-- .our-environment__details ends -->
 
@@ -125,9 +127,8 @@
               <span><i class="ri-emotion-happy-line"></i></span>
             </div>
             <div>
-              <h3>Friendly environment</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus laudantium perspiciatis
-                reiciendis esse cum accusamus harum. Hic cupiditate perferendis adipisci!</p>
+              <h3>Adoraci&oacute;n en Esp&iacute;ritu y en Verdad</h3>
+              <p>En MINPAES tenemos un remanente de adoraci&oacute;n que se caracteriza por realizarlo en Esp&iacute;rituy en Verdad.</p>
             </div>
           </div><!-- .our-environment__details ends -->
 
@@ -136,9 +137,10 @@
               <span><i class="ri-shield-line"></i></span>
             </div>
             <div>
-              <h3>Worship in safety and peace</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus laudantium perspiciatis
-                reiciendis esse cum accusamus harum. Hic cupiditate perferendis adipisci!</p>
+              <h3>Dar en amor</h3>
+              <p>Nuestra congregaci&oacute;n sobresale en el ver&iacute;culo b&iacute;blico: M&aacute;s Bienaventurado en dar que recibir. Se cree en el 
+                dar por amor a Cristo.
+              </p>
             </div>
           </div><!-- .our-environment__details ends -->
 
@@ -373,83 +375,25 @@
     <div class="container">
 
       <div class="section-heading text-white text-center">
-        <span>Testimonials</span>
-        <h2>What people are saying...</h2>
+        <span>Testimonios</span>
+        <h2>Hermanos de nuestra Iglesia</h2>
       </div><!-- .section-heading ends -->
 
       <div class="our-testimonial__carousel owl-carousel" id="our-testimonial">
 
         <div class="testimonial">
-
-          <div class="testimonial__avatar">
-            <div class="card card--picture card--square testimonial__user">
-
-              <div class="card__header">
-                <img src="images/user-1.jpg" alt="A man" class="card__image">
-              </div><!-- .card__header ends -->
-
-              <div class="card__footer">
-                <div class="testimonial__author">George E. Pugh</div>
-              </div><!-- .card__footer ends -->
-
-            </div><!-- .card -->
-          </div><!-- .testimonial__avatar ends -->
-
           <div class="testimonial__text text-white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque animi, magni nisi dolorum nam
-            debitis atque doloremque iure eaque mollitia. Autem cum explicabo libero voluptatum, at suscipit
-            officia, dolore, quia sed cumque repudiandae quo voluptas fugiat laudantium doloribus
-            reprehenderit. Nulla harum perspiciatis recusandae ratione possimus.
+            <h3>Cindy Zarate</h3>
+            El problema que yo tenía era en las trompas de Falopio, porque las dos trompas estaban obstruidas y cuando el diagnóstico del médico en ese entonces que fue casi fines del 2014 y principio del 2015, nos digo que lo que teníamos que hacer era una inseminación in vitro, el doctor me enseño un diagnostico que me había salido que no tenía óvulos que me encontraba en la pre-menopausia y que la única forma que yo podría quedar embarazada en ese momento era haciéndome una inseminación in vitro pero con óvulos donados . Me hice nuevamente el examen y el doctor me dijo los óvulos han crecido me dijo, están creciendo a un tamaño normal, están muy hermosos, están muy bonitos y en ese momento yo me alegre y cuando ella me dice en la noche anda al día siguiente, yo tuve un sueño, y en mi sueño había quedado embarazada. Al día siguiente me fui hacerme mi análisis de embarazo y efectivamente salió positivo y ahí quede embarazada para la gloria de Dios. Por eso es que puedo contar mi testimonio dando fe que Jesús es un Dios real, que es un Dios poderoso y que para El no hay nada imposible, creo que mi hija es un milagro de Dios y que él pudo cumplir el anhelo de mi corazón. Le damos gracias a Dios por este milagro que creímos con fe,y aquí esta este es el resultado del poder de Dios.
           </div>
 
         </div><!-- .testimonial ends -->
 
         <div class="testimonial">
 
-          <div class="testimonial__avatar">
-            <div class="card card--picture card--square testimonial__user">
-
-              <div class="card__header">
-                <img src="images/user-3.jpg" alt="A woman" class="card__image">
-              </div><!-- .card__header ends -->
-
-              <div class="card__footer">
-                <div class="testimonial__author">Nancy A. Austin</div>
-              </div><!-- .card__footer ends -->
-
-            </div><!-- .card -->
-          </div><!-- .testimonial__avatar ends -->
-
           <div class="testimonial__text text-white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque animi, magni nisi dolorum nam
-            debitis atque doloremque iure eaque mollitia. Autem cum explicabo libero voluptatum, at suscipit
-            officia, dolore, quia sed cumque repudiandae quo voluptas fugiat laudantium doloribus
-            reprehenderit. Nulla harum perspiciatis recusandae ratione possimus.
-          </div>
-
-        </div><!-- .testimonial ends -->
-
-        <div class="testimonial">
-
-          <div class="testimonial__avatar">
-            <div class="card card--picture card--square testimonial__user">
-
-              <div class="card__header">
-                <img src="images/user-2.jpg" alt="A man" class="card__image">
-              </div><!-- .card__header ends -->
-
-              <div class="card__footer">
-                <div class="testimonial__author">Joe K. Liley</div>
-              </div><!-- .card__footer ends -->
-
-            </div><!-- .card -->
-          </div><!-- .testimonial__avatar ends -->
-
-          <div class="testimonial__text text-white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque animi, magni nisi dolorum nam
-            debitis atque doloremque iure eaque mollitia. Autem cum explicabo libero voluptatum, at suscipit
-            officia, dolore, quia sed cumque repudiandae quo voluptas fugiat laudantium doloribus
-            reprehenderit. Nulla harum perspiciatis recusandae ratione possimus.
+          <h3>Diana Rojas</h3>
+            Mi testimonio es el siguiente, yo tenía cáncer al útero, fui a muchos médicos, a muchas clínicas, todos corroboraban mi enfermedad, cuando me detectan a mí la cervicitis crónica, yo pensé en suicidarme, esto fue a medio día y yo en la noche ya había comprado todo para poder suicidarme, es ahí donde pedía a gritos que alguien me salvara que alguien me ayudara, no pensé en nada más que en eso, en que no había ninguna salvación para mí, y no había nada. Esto fue en abril, el 13 de abril del 2015, a solo casi un mes y medio de mi sanación, como Dios pudo haberme salvado de una cervicitis crónica, los diagnósticos decían, aun los medico decía que no era posible que yo este sana, porque ya el cáncer había avanzado mucho. Fui a muchos médicos y corroboraron que mi diagnóstico fue cambiado, que ya no tenía cáncer al útero; para darle la gloria a Dios estoy aquí de testimonio a cada uno de ustedes inyectándole fe y esperanza. Ellos son mis dos hermosos hijos, gracias a la bendición de Dios, y que el curo todas mi heridas, hoy gozo de esta alegría junto a ellos.
           </div>
 
         </div><!-- .testimonial ends -->

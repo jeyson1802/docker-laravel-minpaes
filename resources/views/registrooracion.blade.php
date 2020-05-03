@@ -108,7 +108,7 @@
                 <option value="Matrimonio">Matrimonio</option>
                 <option value="Familia">Familia</option>
                 <option value="Liberacion">Liberaci&oacute;n</option>
-                <option value="Salavacion">Salavaci&oacute;n</option>
+                <option value="Salvacion">Salvaci&oacute;n</option>
                 <option value="Otro">Otro</option>
             </select>
 
