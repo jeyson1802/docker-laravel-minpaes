@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta property="og:title" content="MINPAES">
+    <meta property="og:description" content="Ministerio a las Naciones para Arrepentimiento y Santidad">
+    <meta property="og:site_name" content="Ministerio a las Naciones para Arrepentimiento y Santidad">
+    <meta property="og:image" itemprop="image" content="http://minpaes.org/images/logo.png">
+    <meta property="og:image:secure_url" itemprop="image" content="http://minpaes.org/images/logo.png">
+    <meta property="og:url" content="http://minpaes.org/">
+    <meta property="og:type" content="website">
+    <meta property="og:updated_time" content="1440432930" />
+    
     <!-- Main CSS -->
     <link href="../../dist/css/main.css" rel="stylesheet">
 

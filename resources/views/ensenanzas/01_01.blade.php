@@ -44,7 +44,7 @@
       <div class="single__content">
 
         <div class="card single__featured--image no-padding">
-          <img src="../../images/single.jpg" alt="A man praying" class="card__image">
+          <img src="../../images/ensenanzas/sermon-1.jpg" alt="A man praying" class="card__image">
         </div><!-- .card ends -->
 
         <div class="single__metas sermons-single__metas">
@@ -140,7 +140,7 @@
           <div class="card custom-height sermon">
 
             <div class="card__header">
-              <img src="../../images/sermon-1@1.5x.jpg" alt="A man reading the Holy Bible"
+              <img src="../../images/ensenanzas/sermon-1@1.5x.jpg" alt="A man reading the Holy Bible"
                 class="card__image sermon__image">
             </div><!-- .card__header ends -->
 
@@ -172,7 +172,7 @@
           <div class="card custom-height sermon">
 
             <div class="card__header">
-              <img src="../../images/sermon-2@1.5x.jpg" alt="A man reading the Holy Bible"
+              <img src="../../images/ensenanzas/sermon-2@1.5x.jpg" alt="A man reading the Holy Bible"
                 class="card__image sermon__image">
             </div><!-- .card__header ends -->
 
@@ -205,7 +205,7 @@
           <div class="card custom-height sermon">
 
             <div class="card__header">
-              <img src="../../images/sermon-3@1.5x.jpg" alt="" class="card__image sermon__image">
+              <img src="../../images/ensenanzas/sermon-3@1.5x.jpg" alt="" class="card__image sermon__image">
             </div><!-- .card__header ends -->
 
             <div class="card__footer">

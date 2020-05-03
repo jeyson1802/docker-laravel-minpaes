@@ -49,7 +49,7 @@
           <div class="card sermon">
 
             <div class="card__header">
-              <img src="images/sermon-1@1.5x.jpg" alt="A man reading the Holy Bible"
+              <img src="images/ensenanzas/sermon-1@1.5x.jpg" alt="A man reading the Holy Bible"
                 class="card__image sermon__image">
             </div><!-- .card__header ends -->
 
@@ -91,7 +91,7 @@
           <div class="card sermon">
 
             <div class="card__header">
-              <img src="images/sermon-2@1.5x.jpg" alt="A man reading the Holy Bible"
+              <img src="images/ensenanzas/sermon-2@1.5x.jpg" alt="A man reading the Holy Bible"
                 class="card__image sermon__image">
             </div><!-- .card__header ends -->
 
@@ -134,7 +134,7 @@
           <div class="card sermon">
 
             <div class="card__header">
-              <img src="images/sermon-3@1.5x.jpg" alt="" class="card__image sermon__image">
+              <img src="images/ensenanzas/sermon-3@1.5x.jpg" alt="" class="card__image sermon__image">
             </div><!-- .card__header ends -->
 
             <div class="card__footer">
@@ -176,7 +176,7 @@
           <div class="card sermon">
 
             <div class="card__header">
-              <img src="images/sermon-5@1.5x.jpg" alt="" class="card__image sermon__image">
+              <img src="images/ensenanzas/sermon-5@1.5x.jpg" alt="" class="card__image sermon__image">
             </div><!-- .card__header ends -->
 
             <div class="card__footer">
