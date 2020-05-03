@@ -39,8 +39,16 @@ Route::get('/registrooracion', function () {
     return view('registrooracion');
 });
 
-Route::get('/ensenanzas/01/titulo', function () {
+Route::get('/ensenanzas/01/lasalvacioncristiana', function () {
     return view('ensenanzas.01_01');
+});
+
+Route::get('/ensenanzas/01/siervosgenuinos', function () {
+    return view('ensenanzas.01_02');
+});
+
+Route::get('/ensenanzas/01/ministeriodelespiritusanto', function () {
+    return view('ensenanzas.01_03');
 });
 
 Route::resource('contacto', 'ContactoController');

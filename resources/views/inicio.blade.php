@@ -166,34 +166,31 @@
       <div class="card sermon">
 
         <div class="card__header">
-          <img src="images/ensenanzas/sermon-1@1.5x.jpg" alt="A man reading the Holy Bible"
+          <img src="images/ensenanzas/sermon-1@1.5x.jpg" alt="La Salvación"
             class="card__image sermon__image">
         </div><!-- .card__header ends -->
 
         <div class="card__footer">
 
           <div class="sermon__metas">
-            <div class="sermon__meta--date meta"><i class="ri-calendar-event-line"></i> <span>02/28/2020</span>
+            <div class="sermon__meta--date meta"><i class="ri-calendar-event-line"></i> <span>03/05/2020</span>
             </div>
-            <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Pastor Erik B.
-                Hogan</span>
+            <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Arzobispo Cesar Pisconti</span>
             </div>
           </div><!-- .sermon__metas -->
 
           <div class="sermon__content">
             <div class="title">
-              <h3>Loving Jesus with all your heart, mind, and soul</h3>
+              <h3>La Salvación</h3>
             </div>
             <div class="excerpt">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laborum, aperiam iste sit tempore
-                consequuntur voluptates quaerat animi molestias doloribus nobis numquam amet inventore nihil autem
-                praesentium libero laudantium. Possimus, maiores, eius ipsum beatae numquam nemo cum officiis,
-                veniam quidem quibusdam impedit inventore rem. Hic ea eligendi voluptate commodi quo...</p>
+              <p>Sabemos que es un tiempo tan difícil que estamos viviendo aun los que no conocen de Dios saben, que algo está 
+                 pasando en el mundo entero, ven como algo inusual.</p>
             </div>
           </div>
 
           <div class="sermon__link">
-            <a href="sermons-single.html" class="button">Read more</a>
+            <a href="{{ url('ensenanzas/01/lasalvacioncristiana') }}" class="button">Leer más</a>
           </div>
 
         </div><!-- .card__footer ends -->
@@ -207,8 +204,8 @@
       <div class="latest-sermons__sermons">
 
         <div class="section-heading">
-          <span>Sermons</span>
-          <h2>Our latest sermons</h2>
+          <span>Ense&ntilde;anzas</span>
+          <h2>Nuestras Ense&ntilde;anzas</h2>
         </div><!-- .section-heading ends -->
 
         <div class="row">
@@ -226,21 +223,20 @@
 
                 <div class="sermon__metas">
                   <div class="sermon__meta--date meta"><i class="ri-calendar-event-line"></i>
-                    <span>02/28/2020</span>
+                    <span>03/05/2020</span>
                   </div>
-                  <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Pastor Erik B.
-                      Hogan</span>
+                  <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Profeta Dr. David Owuor</span>
                   </div>
                 </div><!-- .sermon__metas -->
 
                 <div class="sermon__content">
                   <div class="title">
-                    <h3>Living the Christian life</h3>
+                    <h3>Siervos Genuinos</h3>
                   </div>
                 </div>
 
                 <div class="sermon__link__home">
-                  <a href="sermons-single.html" class="button">Read more</a>
+                  <a href="{{ url('ensenanzas/01/siervosgenuinos') }}" class="button">Leer más</a>
                 </div>
 
               </div><!-- .card__footer ends -->
@@ -261,91 +257,20 @@
 
                 <div class="sermon__metas">
                   <div class="sermon__meta--date meta"><i class="ri-calendar-event-line"></i>
-                    <span>02/28/2020</span>
+                    <span>03/05/2020</span>
                   </div>
-                  <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Pastor Erik B.
-                      Hogan</span>
-                  </div>
-                </div><!-- .sermon__metas -->
-
-                <div class="sermon__content">
-                  <div class="title">
-                    <h3>Jesus is the Hope and Future</h3>
-                  </div>
-                </div>
-
-                <div class="sermon__link__home">
-                  <a href="sermons-single.html" class="button">Read more</a>
-                </div>
-
-              </div><!-- .card__footer ends -->
-
-            </div><!-- .card ends -->
-
-          </div><!-- .flex-* ends -->
-
-          <div class="flex-md-6">
-
-            <div class="card custom-height sermon" data-aos="flip-down" data-aos-delay="350">
-
-              <div class="card__header">
-                <img src="images/ensenanzas/sermon-5@1.5x.jpg" alt="" class="card__image sermon__image">
-              </div><!-- .card__header ends -->
-
-              <div class="card__footer">
-
-                <div class="sermon__metas">
-                  <div class="sermon__meta--date meta"><i class="ri-calendar-event-line"></i>
-                    <span>02/28/2020</span>
-                  </div>
-                  <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Pastor Erik B.
-                      Hogan</span>
+                  <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Profeta Dr. David Owuor</span>
                   </div>
                 </div><!-- .sermon__metas -->
 
                 <div class="sermon__content">
                   <div class="title">
-                    <h3>Are you truly born again?</h3>
+                    <h3>Ministerio del Espíritu Santo</h3>
                   </div>
                 </div>
 
                 <div class="sermon__link__home">
-                  <a href="sermons-single.html" class="button">Read more</a>
-                </div>
-
-              </div><!-- .card__footer ends -->
-
-            </div><!-- .card ends -->
-
-          </div><!-- .flex-* ends -->
-
-          <div class="flex-md-6">
-
-            <div class="card custom-height sermon" data-aos="flip-down" data-aos-delay="450">
-
-              <div class="card__header">
-                <img src="images/ensenanzas/sermon-4@1.5x.jpg" alt="" class="card__image sermon__image">
-              </div><!-- .card__header ends -->
-
-              <div class="card__footer">
-
-                <div class="sermon__metas">
-                  <div class="sermon__meta--date meta"><i class="ri-calendar-event-line"></i>
-                    <span>02/28/2020</span>
-                  </div>
-                  <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Pastor Erik B.
-                      Hogan</span>
-                  </div>
-                </div><!-- .sermon__metas -->
-
-                <div class="sermon__content">
-                  <div class="title">
-                    <h3>Understanding God's Grace and Justice</h3>
-                  </div>
-                </div>
-
-                <div class="sermon__link__home">
-                  <a href="sermons-single.html" class="button">Read more</a>
+                  <a href="{{ url('ensenanzas/01/ministeriodelespiritusanto') }}" class="button">Leer más</a>
                 </div>
 
               </div><!-- .card__footer ends -->

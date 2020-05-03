@@ -65,19 +65,16 @@
 
               <div class="sermon__content">
                 <div class="title">
-                  <h3>Loving Jesus with all</h3>
+                  <h3>La Salvación</h3>
                 </div>
                 <div class="excerpt">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laborum, aperiam iste sit
-                    tempore
-                    consequuntur voluptates quaerat animi molestias doloribus nobis numquam amet inventore nihil
-                    autem
-                    praesentium libero laudantium...</p>
+                  <p>Sabemos que es un tiempo tan difícil que estamos viviendo aun los que no conocen de Dios saben, que algo está 
+                     pasando en el mundo entero, ven como algo inusual.</p>
                 </div>
               </div>
 
               <div class="sermon__link">
-                <a href="{{ url('ensenanzas/01/titulo') }}" class="button">Leer m&aacute;s</a>
+                <a href="{{ url('ensenanzas/01/lasalvacioncristiana') }}" class="button">Leer m&aacute;s</a>
               </div>
 
             </div><!-- .card__footer ends -->
@@ -101,26 +98,23 @@
                 <div class="sermon__meta--date meta"><i class="ri-calendar-event-line"></i>
                   <span>03/05/2020</span>
                 </div>
-                <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Arzobispo Cesar Pisconti</span>
+                <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Profeta Dr. David Owuor</span>
                 </div>
               </div><!-- .sermon__metas -->
 
               <div class="sermon__content">
                 <div class="title">
-                  <h3>Living the Christian life</h3>
+                  <h3>Siervos Genuinos</h3>
                 </div>
 
                 <div class="excerpt">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laborum, aperiam iste sit
-                    tempore
-                    consequuntur voluptates quaerat animi molestias doloribus nobis numquam amet inventore nihil
-                    autem
-                    praesentium libero laudantium...</p>
+                  <p>Ya es tiempo que los pastores de Dios se levanten, y se hagan contar, estos son los tiempos en los cuales 
+                     estamos viviendo, que Dios está buscando siervos genuinos que puedan preparar a la iglesia</p>
                 </div>
               </div>
 
               <div class="sermon__link">
-                <a href="sermons-single.html" class="button">Leer m&aacute;s</a>
+                <a href="{{ url('ensenanzas/01/siervosgenuinos') }}" class="button">Leer m&aacute;s</a>
               </div>
 
             </div><!-- .card__footer ends -->
@@ -143,26 +137,24 @@
                 <div class="sermon__meta--date meta"><i class="ri-calendar-event-line"></i>
                   <span>03/05/2020</span>
                 </div>
-                <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Arzobispo Cesar Pisconti</span>
+                <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Profeta Dr. David Owuor</span>
                 </div>
               </div><!-- .sermon__metas -->
 
               <div class="sermon__content">
                 <div class="title">
-                  <h3>Jesus is the Hope and Future</h3>
+                  <h3>Ministerio del Espíritu Santo</h3>
                 </div>
 
                 <div class="excerpt">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laborum, aperiam iste sit
-                    tempore
-                    consequuntur voluptates quaerat animi molestias doloribus nobis numquam amet inventore nihil
-                    autem
-                    praesentium libero laudantium...</p>
+                  <p>Si estás haciendo tu propio ministerio, entonces si necesitas dinero, pero si el 
+                     ministerio es del Señor, solo necesitas la unción del Espíritu Santo, esa unción, se traduce al favor 
+                     de Dios en tu ministerio.</p>
                 </div>
               </div>
 
               <div class="sermon__link">
-                <a href="sermons-single.html" class="button">Leer m&aacute;s</a>
+                <a href="{{ url('ensenanzas/01/ministeriodelespiritusanto') }}" class="button">Leer m&aacute;s</a>
               </div>
 
             </div><!-- .card__footer ends -->
@@ -171,47 +163,6 @@
 
         </div><!-- .flex-* ends -->
 
-        <div class="flex-md-6 flex-lg-4">
-
-          <div class="card sermon">
-
-            <div class="card__header">
-              <img src="images/ensenanzas/sermon-5@1.5x.jpg" alt="" class="card__image sermon__image">
-            </div><!-- .card__header ends -->
-
-            <div class="card__footer">
-
-              <div class="sermon__metas">
-                <div class="sermon__meta--date meta"><i class="ri-calendar-event-line"></i>
-                  <span>03/05/2020</span>
-                </div>
-                <div class="sermon__meta--speaker meta"><i class="ri-user-star-line"></i> <span>Arzobispo Cesar Pisconti</span>
-                </div>
-              </div><!-- .sermon__metas -->
-
-              <div class="sermon__content">
-                <div class="title">
-                  <h3>Are you truly born again?</h3>
-                </div>
-
-                <div class="excerpt">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam laborum, aperiam iste sit
-                    tempore
-                    consequuntur voluptates quaerat animi molestias doloribus nobis numquam amet inventore nihil
-                    autem
-                    praesentium libero laudantium...</p>
-                </div>
-              </div>
-
-              <div class="sermon__link">
-                <a href="sermons-single.html" class="button">Leer m&aacute;s</a>
-              </div>
-
-            </div><!-- .card__footer ends -->
-
-          </div><!-- .card ends -->
-
-        </div><!-- .flex-* ends -->
 
       </div><!-- .row ends -->
 
