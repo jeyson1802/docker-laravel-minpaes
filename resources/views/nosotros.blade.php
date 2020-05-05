@@ -102,7 +102,7 @@
             </div>
 
             <div class="staff__name">
-              <h3>Obispa Mery Pisconti</h3>
+              <h3>Obispo Mery Pisconti</h3>
             </div>
 
           </div>
