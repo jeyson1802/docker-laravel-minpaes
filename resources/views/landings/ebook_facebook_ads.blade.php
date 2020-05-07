@@ -1,10 +1,8 @@
 @extends('layouts.landing')
 
-@section('title', 'Ebook - MINPAES')
+@section('title', 'Ebook - El poder escondido de la iglesia')
 
 @section('content')
-
-@endsection
 
 <!-- COMING SOON SECTION STARTS -->
 <section class="landing-page display-flex-column justify-content-center default-section-spacing">
@@ -77,6 +75,8 @@
 
 </section><!-- .landing-page ends -->
 <!-- COMING SOON SECTION ENDS -->
+
+@endsection
 
 @push('scripts')
 @endpush
