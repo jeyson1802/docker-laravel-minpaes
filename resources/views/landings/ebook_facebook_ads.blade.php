@@ -17,7 +17,7 @@
 
       <div class="landing-page__content text-center">
 
-        <h1>eBook Gratis</h1>
+        <h1>Libro Gratis</h1>
 
         <p class="leading">¡Recibe este increíble libro que te encantará!</p>
 
