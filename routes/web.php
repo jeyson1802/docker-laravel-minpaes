@@ -51,7 +51,7 @@ Route::get('/ensenanzas/01/ministeriodelespiritusanto', function () {
     return view('ensenanzas.01_03');
 });
 
-Route::get('/landing/ebook/elremanentedecristo', function () {
+Route::get('/landing/ebook/elpoderescondidodelaiglesia', function () {
     return view('landings.ebook_facebook_ads');
 });
 
