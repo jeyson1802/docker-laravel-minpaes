@@ -51,6 +51,11 @@ Route::get('/ensenanzas/01/ministeriodelespiritusanto', function () {
     return view('ensenanzas.01_03');
 });
 
+Route::get('/landing/ebook/elremanentedecristo', function () {
+    return view('landings.ebook_facebook_ads');
+});
+
 Route::resource('contacto', 'ContactoController');
 Route::resource('oracion', 'OracionController');
+Route::resource('landing', 'LandingController');
 
