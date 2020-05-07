@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content="Ebook - El poder escondido de la iglesia">
-    <meta property="og:description" content="Ebook - El poder escondido de la iglesia">
-    <meta property="og:site_name" content="Ebook - El poder escondido de la iglesia">
+    <meta property="og:title" content="eBook - El poder escondido de la iglesia">
+    <meta property="og:description" content="eBook - El poder escondido de la iglesia">
+    <meta property="og:site_name" content="eBook - El poder escondido de la iglesia">
     <meta property="og:image" itemprop="image" content="http://minpaes.org/images/background-ebook.jpg">
     <meta property="og:image:secure_url" itemprop="image" content="http://minpaes.org/images/background-ebook.jpg">
     <meta property="og:url" content="http://minpaes.org/landing/ebook/elpoderescondidodelaiglesia/">

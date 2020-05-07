@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <title>Ebook - El Poder escondido de la Iglesia</title>
+    <title>eBook - El Poder escondido de la Iglesia</title>
 </head>
 <body>
     <p>Hola {{ $landing->nombres }}</p>

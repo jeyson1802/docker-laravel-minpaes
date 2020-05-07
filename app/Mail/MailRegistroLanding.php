@@ -31,7 +31,7 @@ class MailRegistroLanding extends Mailable
      */
     public function build()
     {
-        return $this->subject('Ebook - Donde esta el Poder escondido de la Iglesia')->view('mails.landing-ebook')
+        return $this->subject('eBook - Donde esta el Poder escondido de la Iglesia')->view('mails.landing-ebook')
                                                                                     ->attach(public_path() . '/ebook/ebook-poder-iglesia.pdf');;
     }
 }

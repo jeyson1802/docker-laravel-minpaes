@@ -1,6 +1,6 @@
 @extends('layouts.landing')
 
-@section('title', 'Ebook - El poder escondido de la iglesia')
+@section('title', 'eBook - El poder escondido de la iglesia')
 
 @section('content')
 
@@ -17,7 +17,7 @@
 
       <div class="landing-page__content text-center">
 
-        <h1>Ebook Gratis</h1>
+        <h1>eBook Gratis</h1>
 
         <p class="leading">¡Recibe este increíble libro que te encantará!</p>
 
