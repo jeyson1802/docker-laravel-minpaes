@@ -11,7 +11,7 @@
     <meta property="og:site_name" content="Ebook - El poder escondido de la iglesia">
     <meta property="og:image" itemprop="image" content="http://minpaes.org/images/background-ebook.jpg">
     <meta property="og:image:secure_url" itemprop="image" content="http://minpaes.org/images/background-ebook.jpg">
-    <meta property="og:url" content="http://minpaes.org/">
+    <meta property="og:url" content="http://minpaes.org/landing/ebook/elpoderescondidodelaiglesia/">
     <meta property="og:type" content="website">
     <meta property="og:updated_time" content="1450432930" />
     
