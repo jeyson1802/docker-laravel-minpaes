@@ -63,6 +63,8 @@
     <!-- Main (custom) script -->
     <script src="../../dist/js/main.min.js"></script>
 
+    @include('layouts.pixelfacebookads')
+    
     @stack('scripts')
 
 </body>
