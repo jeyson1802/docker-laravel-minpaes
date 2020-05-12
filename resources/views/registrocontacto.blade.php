@@ -121,7 +121,7 @@
 
         <div class="flex-md-12 mar-b-sm">
 
-          <button class="button" type="submit" name="submit">Enviar</button>
+          <button id="btncontacto" name="btncontacto" class="button" type="submit" name="submit">Enviar</button>
 
         </div><!-- .flex-* ends -->
 
