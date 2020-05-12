@@ -129,7 +129,7 @@
 
         <div class="flex-md-12 mar-b-sm">
 
-          <button id="btnoracion" name="btnoracion" class="button" type="submit" name="submit">Enviar</button>
+          <button id="btnoracion" name="btnoracion" class="button" type="submit" name="submit">Solicitar</button>
 
         </div><!-- .flex-* ends -->
 
