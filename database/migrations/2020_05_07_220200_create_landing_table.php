@@ -19,6 +19,7 @@ class CreateLandingTable extends Migration
             $table->string('correo')->nullable(false)->default('');
             $table->string('celular')->nullable(false)->default('');
             $table->string('campana')->nullable(true)->default('-');
+            $table->string('suscripcion')->nullable(true)->default('-');
             $table->timestamps();
         });
     }

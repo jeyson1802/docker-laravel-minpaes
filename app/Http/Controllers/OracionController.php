@@ -44,6 +44,7 @@ class OracionController extends Controller
         $oracion->pais = $request->input("pais");
         $oracion->tipopeticion = $request->input("tipopeticion");
         $oracion->peticion = $request->input("peticion");
+        $oracion->suscripcion = $request->input("suscripcion");
         $oracion->save();
 
         $correo = $request->input("correo");

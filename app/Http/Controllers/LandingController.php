@@ -42,6 +42,7 @@ class LandingController extends Controller
         $landing->correo = $request->input("correo");
         $landing->celular = $request->input("celular");
         $landing->campana = $request->input("campana");
+        $landing->suscripcion = $request->input("suscripcion");
         $landing->save();
 
         $correo = $request->input("correo");

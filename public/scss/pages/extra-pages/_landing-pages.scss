@@ -49,6 +49,11 @@
       font-size: 5.5rem;
       text-transform: capitalize;
       margin-bottom: 1rem;
+      margin-top: 10rem;
+
+      @include respond(lg) {
+        margin-top: 3rem;
+      }
     }
   }
 
@@ -107,6 +112,71 @@
     }
   }
 }
+
+// Checkbox
+#{&}__checkbox {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+  user-select: none;
+  margin-bottom: 2rem;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+    &:checked ~ .checkmark {
+      background-color: $hover-active-color;
+      border-color: $hover-active-color;
+      &::after {
+        opacity: 1;
+        visibility: visible;
+        transform: translate(-50%, -20%) rotate(45deg);
+        border-color: $lighter-gray-color;
+      }
+    }
+  }
+
+  &:hover {
+    .checkmark {
+      transform: scale(0.8);
+    }
+  }
+
+  .checkmark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: scale(1);
+    @include border($color: $accent-color);
+    @include transition;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      opacity: 0;
+      visibility: hidden;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -20%) rotate(45deg);
+      width: 0.5rem;
+      height: 1rem;
+      @include border;
+      border-width: 0 0.2rem 0.2rem 0;
+      border-color: $lighter-gray-color;
+      @include transition;
+    }
+  }
+}
+
 }
 
 

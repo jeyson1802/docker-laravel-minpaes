@@ -127,6 +127,18 @@
 
         </div><!-- .flex-* ends -->
 
+        <div class="flex-md-12">
+
+            <div class="form__group">
+              <label class="custom-label form__checkbox">
+                Suscribirse al boletín informativo
+                <input id="suscripcion" name="suscripcion" type="checkbox" checked>
+                <span class="checkmark"></span>
+              </labeL>
+            </div><!-- .form__group ends -->
+
+        </div><!-- .flex-* ends -->
+
         <div class="flex-md-12 mar-b-sm">
 
           <button id="btnoracion" name="btnoracion" class="button" type="submit" name="submit">Solicitar</button>

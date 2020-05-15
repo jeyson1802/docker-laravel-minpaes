@@ -21,6 +21,7 @@ class CreateContactoTable extends Migration
             $table->string('pais')->nullable(true)->default('-');
             $table->string('asunto')->nullable(true)->default('-');
             $table->string('mensaje')->nullable(true)->default('-');
+            $table->string('suscripcion')->nullable(true)->default('-');
             $table->timestamps();
         });
     }

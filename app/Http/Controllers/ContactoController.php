@@ -44,6 +44,7 @@ class ContactoController extends Controller
         $contacto->pais = $request->input("pais");
         $contacto->asunto = $request->input("asunto");
         $contacto->mensaje = $request->input("mensaje");
+        $contacto->suscripcion = $request->input("suscripcion");
         $contacto->save();
 
         $correo = $request->input("correo");

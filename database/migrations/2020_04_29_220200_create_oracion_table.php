@@ -21,6 +21,7 @@ class CreateOracionTable extends Migration
             $table->string('pais')->nullable(true)->default('-');
             $table->string('tipopeticion')->nullable(true)->default('-');
             $table->string('peticion')->nullable(true)->default('-');
+            $table->string('suscripcion')->nullable(true)->default('-');
             $table->timestamps();
         });
     }
