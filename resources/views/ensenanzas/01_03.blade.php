@@ -137,10 +137,10 @@
         <div class="sidebar__widget">
           <div class="share">
             <span>Compartir</span>
-            <a id="link-share-wp" href="https://web.whatsapp.com/send?text=http%3A%2F%2Fminpaes.org%2Fensenanzas%2F01%2Fministeriodelespiritusanto" title="Whatsapp" target="_blank"><i class="ri-whatsapp-line"></i></a>
-            <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fminpaes.org%2Fensenanzas%2F01%2Fministeriodelespiritusanto&amp;text=Ministerio%20del%20Esp%C3%ADtitu%20Santo%3A%20Ministerio%20del%20Esp%C3%ADtitu%20Santo" title="Twitter" target="_blank"><i class="ri-twitter-line"></i></a>
-            <a href="mailto:?subject=Ministerio%20del%20Esp%C3%ADtitu%20Santo%20&amp;body=http%3A%2F%2Fminpaes.org%2Fensenanzas%2F01%2Fministeriodelespiritusanto%0A%0AMinisterio%20del%20Esp%C3%ADtitu%20Santo" title="Email" target="_blank"><i class="ri-mail-line"></i></a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fminpaes.org%2Fensenanzas%2F01%2Fministeriodelespiritusanto" title="Facebook" target="_blank"><i class="ri-facebook-line"></i></a>
+            <a id="link-share-wp" href="https://web.whatsapp.com/send?text=http%3A%2F%2Fedqal.com%2Fensenanzas%2F01%2Fministeriodelespiritusanto" title="Whatsapp" target="_blank"><i class="ri-whatsapp-line"></i></a>
+            <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fedqal.com%2Fensenanzas%2F01%2Fministeriodelespiritusanto&amp;text=Ministerio%20del%20Esp%C3%ADtitu%20Santo%3A%20Ministerio%20del%20Esp%C3%ADtitu%20Santo" title="Twitter" target="_blank"><i class="ri-twitter-line"></i></a>
+            <a href="mailto:?subject=Ministerio%20del%20Esp%C3%ADtitu%20Santo%20&amp;body=http%3A%2F%2Fedqal.com%2Fensenanzas%2F01%2Fministeriodelespiritusanto%0A%0AMinisterio%20del%20Esp%C3%ADtitu%20Santo" title="Email" target="_blank"><i class="ri-mail-line"></i></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fedqal.com%2Fensenanzas%2F01%2Fministeriodelespiritusanto" title="Facebook" target="_blank"><i class="ri-facebook-line"></i></a>
           </div>
         </div><!-- .sidebar__widget ends -->
 
@@ -235,9 +235,9 @@
 
     function generarEnlacesCompartir() {
       if(isMobile()) {
-        $("#link-share-wp").attr("href", "https://api.whatsapp.com/send?text=http%3A%2F%2Fminpaes.org%2Fensenanzas%2F01%2Fministeriodelespiritusanto");
+        $("#link-share-wp").attr("href", "https://api.whatsapp.com/send?text=http%3A%2F%2Fedqal.com%2Fensenanzas%2F01%2Fministeriodelespiritusanto");
       } else {
-        $("#link-share-wp").attr("href", "https://web.whatsapp.com/send?text=http%3A%2F%2Fminpaes.org%2Fensenanzas%2F01%2Fministeriodelespiritusanto");
+        $("#link-share-wp").attr("href", "https://web.whatsapp.com/send?text=http%3A%2F%2Fedqal.com%2Fensenanzas%2F01%2Fministeriodelespiritusanto");
       }
     }
 

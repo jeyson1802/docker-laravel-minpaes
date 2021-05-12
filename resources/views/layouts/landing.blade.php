@@ -9,9 +9,9 @@
     <meta property="og:title" content="eBook - El poder escondido de la iglesia">
     <meta property="og:description" content="eBook - El poder escondido de la iglesia">
     <meta property="og:site_name" content="eBook - El poder escondido de la iglesia">
-    <meta property="og:image" itemprop="image" content="http://minpaes.org/images/background-ebook.jpg">
-    <meta property="og:image:secure_url" itemprop="image" content="http://minpaes.org/images/background-ebook.jpg">
-    <meta property="og:url" content="http://minpaes.org/landing/ebook/elpoderescondidodelaiglesia/">
+    <meta property="og:image" itemprop="image" content="http://edqal.com/images/background-ebook.jpg">
+    <meta property="og:image:secure_url" itemprop="image" content="http://edqal.com/images/background-ebook.jpg">
+    <meta property="og:url" content="http://edqal.com/landing/ebook/elpoderescondidodelaiglesia/">
     <meta property="og:type" content="website">
     <meta property="og:updated_time" content="1450432930" />
     

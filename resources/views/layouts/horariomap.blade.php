@@ -31,7 +31,7 @@
 
                 <div class="info">
                   <div class="location bold">Email:</div>
-                  <div class="location-info"><span>info@minpaes.org</span></div>
+                  <div class="location-info"><span>info@edqal.com</span></div>
                 </div>
 
               </div><!-- .time-location__time ends -->
